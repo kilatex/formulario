@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Passionline</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="login-box">
+
+        <img src="./img/logo_on.png" alt="logo_passionline" class="avatar">
+        <h2>Regístrate</h2>
+
+        <form id="form">
+            <!--USERNAME-->
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Nombre" id="name">
+
+            <!--EMAIL-->
+            <label for="last_name">Apellido</label>
+            <input type="text" placeholder="Apellido" id="last_name">
+
+            <label for="cedula" >Cedula</label>
+
+            <select name="tipo" id="tipo">
+
+                <option value="1">V-</option>
+                <option value="2">E-</option>
+                <option value="3">P-</option>
+                <option value="4">J-</option>
+            </select>
+
+            <input type="text" name="cedul" id="cedulax" placeholder="Cedula">
+
+            <div class="sexo">
+                <div class="masculino" >
+                    <label for="male">Masculino</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                </div>
+
+                <div class="femenino">
+                    <label for="male">Femenino</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                </div>
+
+                <div class="otro">
+                    <label for="male">Otro</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                </div>
+
+
+            </div>
+
+            <label for="number">Numero Telefónico</label>
+            <input type="text" placeholder="Numero Telefónico" id="number" >
+            
+            <label for="number">Correo Electrónico</label>
+            <input type="email" placeholder="Correo Electrónico" id="email" >
+
+            <input type="button" name="clean" placeholder="Limpiar" value="Limpiar" id="clean" >
+            <input type="submit" name="Regístrate" value="Registrar" id="register">
+
+        </form>
+    </div>
+
+    <script src="./js/formulario.js"></script>
+   
+</body>
+
+</html>

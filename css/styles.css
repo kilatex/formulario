@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/wallpaper.jpg) no-repeat  center top;
+    background-size: cover;
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+}
+
+.login-box{
+    width: 580px;
+    height: 850px;
+    background: #0B395B;
+    color:#FFCA31;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50% ,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10px;
+}
+
+.login-box .avatar{
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+
+.login-box h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.login-box input[type="text"],
+.login-box input[type="email"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #FFCA31;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+    outline: none;
+    border: none;
+    height: 40px;
+    background: #FFCA31;
+    color:  #0B395B;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="button"]{
+    outline: none;
+    border: none;
+    height: 40px;
+    background: #FFCA31;
+    color:  #0B395B;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+.login-box input[type="button"]:hover{
+    background: #FFD55B;
+    cursor: pointer;
+   
+}
+
+.login-box input[type="submit"]:hover{
+    background: #FFD55B;
+    cursor: pointer;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 25px;
+    color: #C29208;
+}
+
+
+.login-box select{
+    background:  #FFD55B;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:  #0B395B;
+
+}
+
+.login-box input[type="radio"]{
+ 
+    position: relative;
+    right: 5px;
+   
+}
+.login-box .sexo {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.login-box .masculino{
+    margin-right: 60px;
+}
+
+.login-box .femenino{
+    margin-right: 60px;
+    margin-left: 15px;
+}
+.login-box .otro{
+    margin-left: 20px;
+}
